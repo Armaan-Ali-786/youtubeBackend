@@ -4,7 +4,6 @@ import connectDB from "./db/index.js";
 import { app } from './app.js';
 
 dotenv.config();
-console.log(process.env.PORT)
 
 connectDB()
     .then(() => {
